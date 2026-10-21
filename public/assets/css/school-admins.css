@@ -1,0 +1,351 @@
+.school-admin-create-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.school-admin-create-form label,
+.school-admin-edit-form label {
+  display: grid;
+  gap: 7px;
+  color: #4d566d;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.school-admin-create-form input,
+.school-admin-create-form select,
+.school-admin-edit-form input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #dfe4ee;
+  border-radius: 8px;
+  padding: 10px 11px;
+  color: #172033;
+  background: #fff;
+}
+
+.school-admin-create-form small {
+  color: #778198;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.school-admin-create-form button {
+  justify-self: start;
+}
+
+.school-admin-table {
+  min-width: 980px;
+}
+
+.school-admin-table td {
+  vertical-align: top;
+}
+
+.school-admin-table td:first-child {
+  min-width: 170px;
+}
+
+.school-admin-table td:first-child small {
+  display: block;
+  margin-top: 6px;
+  color: #778198;
+  font-size: 11px;
+}
+
+.school-admin-edit-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(130px, 1fr));
+  gap: 10px;
+  min-width: 570px;
+}
+
+.school-admin-edit-form details,
+.school-admin-edit-form button {
+  grid-column: 1 / -1;
+}
+
+.school-admin-edit-form details {
+  color: #625ded;
+  font-size: 12px;
+}
+
+.school-admin-edit-form summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.school-admin-password-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.school-admin-edit-form button {
+  justify-self: start;
+}
+
+.school-directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.school-directory-card {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  border: 1px solid #e2eadf;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #fff, #f8fbf5);
+  box-shadow: 0 6px 17px rgba(35, 74, 47, .045);
+}
+
+.school-directory-icon {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid #deebd7;
+  border-radius: 12px;
+  background: #edf6e8;
+  color: #43815b;
+  font-size: 20px;
+}
+
+.school-directory-info {
+  display: grid;
+  min-width: 0;
+  gap: 6px;
+}
+
+.school-directory-info label {
+  color: #4d6654;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.school-directory-info input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #dfe8dc;
+  border-radius: 8px;
+  padding: 9px 10px;
+  color: #203b2b;
+  background: #fff;
+  font: 700 12px 'DM Sans', sans-serif;
+}
+
+.school-directory-info input:focus {
+  outline: 0;
+  border-color: #76b48a;
+  box-shadow: 0 0 0 3px rgba(75,157,111,.12);
+}
+
+.school-directory-info .admin-status {
+  justify-self: start;
+}
+
+.school-directory-card button {
+  align-self: end;
+  white-space: nowrap;
+}
+
+.school-class-form {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) auto;
+  align-items: end;
+  gap: 12px;
+}
+
+.school-class-form label {
+  grid-column: 1 / -1;
+  color: #4d566d;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.school-class-form input {
+  min-width: 0;
+  border: 1px solid #dfe4ee;
+  border-radius: 8px;
+  padding: 10px 11px;
+  color: #172033;
+  background: #fff;
+}
+
+.school-admin-create-form select:focus {
+  outline: 0;
+  border-color: #76b48a;
+  box-shadow: 0 0 0 3px rgba(75,157,111,.12);
+}
+
+.school-class-form input {
+  width: 100%;
+}
+
+.school-class-form button {
+  grid-column: 2;
+}
+
+.school-class-table {
+  min-width: 820px;
+}
+
+.school-course-table {
+  min-width: 820px;
+}
+
+.school-course-table td:first-child {
+  min-width: 220px;
+}
+
+.school-course-table td:first-child small {
+  display: block;
+  margin-top: 5px;
+  color: #778198;
+  font-size: 10px;
+}
+
+.school-course-table form {
+  margin: 0;
+}
+
+.school-course-table .admin-action {
+  white-space: nowrap;
+}
+
+.school-class-account-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #267653;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.school-class-account-link:hover,
+.school-class-account-link:focus-visible {
+  color: #145b3c;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.school-class-account-link span {
+  display: grid;
+  min-width: 20px;
+  height: 20px;
+  place-items: center;
+  border-radius: 20px;
+  background: #edf6e8;
+  color: #397552;
+  font-size: 10px;
+}
+
+.school-class-page-actions {
+  margin: 0 0 18px;
+}
+
+.school-class-account-table {
+  min-width: 900px;
+}
+
+.school-student-results-link {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: #267653;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.school-student-results-link:hover,
+.school-student-results-link:focus-visible {
+  color: #145b3c;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.school-student-results-link span,
+.school-student-results-link b {
+  display: inline-flex;
+  align-items: center;
+  min-height: 19px;
+  padding: 0 7px;
+  border-radius: 20px;
+  background: #edf6e8;
+  color: #397552;
+  font-size: 9px;
+}
+
+.school-student-results-link b {
+  background: #fff2dc;
+  color: #95641f;
+  font-weight: 700;
+}
+
+.school-review-unavailable {
+  color: #849187;
+  font-size: 10px;
+}
+
+.school-student-submission .admin-status.pending {
+  background: #fff2dc;
+  color: #95641f;
+}
+
+.school-student-review-note {
+  margin: 0 0 12px;
+  color: #718176;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.school-student-review-note strong {
+  color: #405b49;
+}
+
+@media (max-width: 700px) {
+  .school-admin-create-form {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .school-admin-password-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .school-class-form {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .school-class-form button {
+    grid-column: auto;
+  }
+
+  .school-course-table {
+    min-width: 760px;
+  }
+
+  .school-directory-card {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .school-directory-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .school-directory-card button {
+    grid-column: 2;
+    justify-self: start;
+  }
+}

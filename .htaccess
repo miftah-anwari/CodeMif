@@ -1,0 +1,8 @@
+# Jika document root belum diarahkan ke folder "public",
+# semua request di folder proyek otomatis diteruskan ke public/.
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$ public/ [L]
+    RewriteRule ^(?!public/)(.*)$ public/$1 [L]
+</IfModule>

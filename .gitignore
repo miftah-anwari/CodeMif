@@ -1,0 +1,9 @@
+.env
+storage/logs/*
+!storage/logs/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

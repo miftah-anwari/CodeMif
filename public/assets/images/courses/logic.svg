@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#E5F7EF"/><stop offset="1" stop-color="#B9E6D0"/></linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#44B98B"/><stop offset="1" stop-color="#248A73"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE18A"/><stop offset="1" stop-color="#F4B951"/></linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h720v300H0z"/>
+  <circle cx="83" cy="52" r="76" fill="#FFF" fill-opacity=".29"/><circle cx="655" cy="253" r="91" fill="#63C69B" fill-opacity=".2"/>
+  <path d="M0 255c128-44 210 24 342-7 132-30 244-36 378 7v45H0z" fill="#65C59B" fill-opacity=".24"/>
+  <path d="M356 81v39m0 0-133 43m133-43 132 43m-265 0v38m0 0 93 40m-93-40-95 40m360-78v38m0 0-95 40m95-40 93 40" stroke="#549D7C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="278" y="39" width="156" height="54" rx="18" fill="url(#node)"/>
+  <text x="356" y="73" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700">MULAI</text>
+  <path d="M356 116 409 145 356 174 303 145 356 116Z" fill="url(#gold)"/>
+  <text x="356" y="151" text-anchor="middle" fill="#654D21" font-family="Arial,sans-serif" font-size="13" font-weight="700">KONDISI?</text>
+  <rect x="146" y="163" width="126" height="49" rx="16" fill="#FFF" fill-opacity=".9"/>
+  <rect x="448" y="163" width="126" height="49" rx="16" fill="#FFF" fill-opacity=".9"/>
+  <text x="209" y="194" text-anchor="middle" fill="#347B60" font-family="Arial,sans-serif" font-size="16" font-weight="700">YA</text>
+  <text x="511" y="194" text-anchor="middle" fill="#6773B8" font-family="Arial,sans-serif" font-size="16" font-weight="700">TIDAK</text>
+  <rect x="93" y="231" width="111" height="43" rx="14" fill="url(#node)"/><rect x="268" y="231" width="111" height="43" rx="14" fill="#6C82D9"/>
+  <rect x="406" y="231" width="111" height="43" rx="14" fill="#6C82D9"/><rect x="581" y="231" width="92" height="43" rx="14" fill="url(#node)"/>
+  <text x="148" y="258" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="13" font-weight="700">PROSES A</text>
+  <text x="323" y="258" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="13" font-weight="700">ULANGI</text>
+  <text x="461" y="258" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="13" font-weight="700">ULANGI</text>
+  <text x="627" y="258" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="13" font-weight="700">SELESAI</text>
+</svg>
